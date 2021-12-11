@@ -1,10 +1,13 @@
-<nav class="navbar navbar-default navbar-static-top bg-info">
+<nav class="navbar navbar-default navbar-static-top bg1-info" style="background-color:#8de867">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="assets/online_quiz.png" alt="" width="50" height="40" class="d-inline-block align-text-top">
-      Online Test Application
+      <img src="assets/online_quiz.png" alt="" width="150" height="80" class="d-inline-block align-text-top">
+      
     </a>
-    <div class="col-6 text-right mt-3" style="color: white;">
+    <div class="col-5 text-right  mt-3" style="text-align: right;color: white;/* float: right; */">
+      <h3 style="color:black;">Online Test Application</h3>
+    </div>
+    <div class="col-3 text-right mt-3" style="color: black;">
       Select Quiz Type:
       <select class="form-select form-select-lg mb-3" [(ngModel)]="quizName" (change)="loadQuiz(quizName)">
         <option *ngFor="let quiz of quizes" [value]="quiz.id">{{quiz.name}}</option>

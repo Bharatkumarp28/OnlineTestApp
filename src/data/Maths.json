@@ -1,35 +1,35 @@
 {
     "id": 1,
-    "name": "Java Quiz",
-    "description": "Java Quiz (based on basic concepts)",
+    "name": "Maths Quiz",
+    "description": "Maths Quiz (based on basic concepts)",
     "questions": [
         {
             "id": 1010,
-            "name": "What of the following is the default value of a local variable?",
+            "name": "What is the sum of 130+125+191?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Not assigned",
-                    "isAnswer": true
+                    "name": "335",
+                    "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "null",
+                    "name": "456",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Depends upon the type of variable",
-                    "isAnswer": false
+                    "name": "446",
+                    "isAnswer": true
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "All of the above.",
+                    "name": "426",
                     "isAnswer": false
                 }
             ],
@@ -41,31 +41,31 @@
         },
         {
             "id": 1011,
-            "name": "What is the size of float variable?",
+            "name": "If we minus 712 from 1500, how much do we get?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "32 bit",
-                    "isAnswer": true
+                    "name": "778.",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
-                    "questionId": 1010,
-                    "name": "8 bit",
+                    "questionId": 3030,
+                    "name": "768",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
-                    "questionId": 1010,
-                    "name": "16 bit",
-                    "isAnswer": false
+                    "questionId": 3030,
+                    "name": "788",
+                    "isAnswer": true
                 },
                 {
                     "id": 1058,
-                    "questionId": 1010,
-                    "name": "64 bit",
+                    "questionId": 3030,
+                    "name": "758",
                     "isAnswer": false
                 }
             ],
@@ -76,32 +76,32 @@
             }
         },
         {
-            "id": 1012,
-            "name": "What is the default value of double variable?",
+            "id": 3012,
+            "name": "50 times of 8 is equal to:",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
-                    "questionId": 1010,
-                    "name": "0.0f",
+                    "questionId": 3030,
+                    "name": "800",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
-                    "questionId": 1010,
-                    "name": "0.0d",
+                    "questionId": 3030,
+                    "name": "400",
                     "isAnswer": true
                 },
                 {
                     "id": 1056,
-                    "questionId": 1010,
-                    "name": "0",
+                    "questionId": 3030,
+                    "name": "80",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
-                    "questionId": 1010,
-                    "name": "not defined",
+                    "questionId": 3030,
+                    "name": "4000",
                     "isAnswer": false
                 }
             ],
@@ -112,32 +112,32 @@
             }
         },
         {
-            "id": 1013,
-            "name": "What is the default value of Object variable?",
+            "id": 3013,
+            "name": "110 divided by 10 is:",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
-                    "questionId": 1010,
-                    "name": "0",
+                    "questionId": 3030,
+                    "name": "10",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
-                    "questionId": 1010,
-                    "name": "undefined",
+                    "questionId": 3030,
+                    "name": "5",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
-                    "questionId": 1010,
-                    "name": "not defined",
+                    "questionId": 3030,
+                    "name": "10",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
-                    "questionId": 1010,
-                    "name": "null",
+                    "questionId": 3030,
+                    "name": "11",
                     "isAnswer": true
                 }
             ],
@@ -148,31 +148,31 @@
             }
         },
         {
-            "id": 1014,
-            "name": "What is class variable?",
+            "id": 3014,
+            "name": "The product of 82 and 5 is:",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
-                    "questionId": 1010,
-                    "name": "class variables are static variables within a class but outside any method.",
-                    "isAnswer": true
+                    "questionId": 3030,
+                    "name": "400",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
-                    "questionId": 1010,
-                    "name": "class variables are variables defined inside methods, constructors or blocks.",
+                    "questionId": 3030,
+                    "name": "420",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
-                    "questionId": 1010,
-                    "name": "class variables are variables within a class but outside any method.",
-                    "isAnswer": false
+                    "questionId": 3030,
+                    "name": "410",
+                    "isAnswer": true
                 },
                 {
                     "id": 1058,
-                    "questionId": 1010,
+                    "questionId": 3030,
                     "name": "None of above",
                     "isAnswer": false
                 }
@@ -183,6 +183,5 @@
                 "isActive": true
             }
         }
-       
     ]
-}
+} 

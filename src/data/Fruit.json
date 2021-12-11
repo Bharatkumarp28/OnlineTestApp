@@ -1,35 +1,35 @@
 {
     "id": 1,
-    "name": "Java Quiz",
-    "description": "Java Quiz (based on basic concepts)",
+    "name": "Fruit Quiz",
+    "description": "Fruit Quiz (Basic Multiple Choice Questions for Developers)",
     "questions": [
         {
             "id": 1010,
-            "name": "What of the following is the default value of a local variable?",
+            "name": "Where was the kiwi fruit first grown?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Not assigned",
-                    "isAnswer": true
+                    "name": "New Zealand",
+                    "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "null",
-                    "isAnswer": false
+                    "name": "China",
+                    "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Depends upon the type of variable",
+                    "name": "Australia",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "All of the above.",
+                    "name": "Chile",
                     "isAnswer": false
                 }
             ],
@@ -41,31 +41,31 @@
         },
         {
             "id": 1011,
-            "name": "What is the size of float variable?",
+            "name": "Which fruit has the highest oil content?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "32 bit",
+                    "name": "Olive",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "8 bit",
+                    "name": "Peach",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "16 bit",
+                    "name": "Avocado",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "64 bit",
+                    "name": "Mango",
                     "isAnswer": false
                 }
             ],
@@ -77,31 +77,31 @@
         },
         {
             "id": 1012,
-            "name": "What is the default value of double variable?",
+            "name": "What percentage of the watermelon is water?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "0.0f",
-                    "isAnswer": false
+                    "name": "92",
+                    "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "0.0d",
-                    "isAnswer": true
+                    "name": "34",
+                    "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "0",
+                    "name": "80",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "not defined",
+                    "name": "66",
                     "isAnswer": false
                 }
             ],
@@ -113,32 +113,32 @@
         },
         {
             "id": 1013,
-            "name": "What is the default value of Object variable?",
+            "name": "Chinese Gooseberry is another name for:",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "0",
-                    "isAnswer": false
+                    "name": "Kiwi",
+                    "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "undefined",
+                    "name": "Cherry",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "not defined",
+                    "name": "Plum",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "null",
-                    "isAnswer": true
+                    "name": "Lime",
+                    "isAnswer": false
                 }
             ],
             "questionType": {
@@ -149,31 +149,31 @@
         },
         {
             "id": 1014,
-            "name": "What is class variable?",
+            "name": "The only fruit to have seeds on the outside is:",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "class variables are static variables within a class but outside any method.",
+                    "name": "Strawberry",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "class variables are variables defined inside methods, constructors or blocks.",
+                    "name": "Pineapple",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "class variables are variables within a class but outside any method.",
+                    "name": "Raspberry",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "None of above",
+                    "name": "Lychee",
                     "isAnswer": false
                 }
             ],
@@ -183,6 +183,5 @@
                 "isActive": true
             }
         }
-       
     ]
 }
