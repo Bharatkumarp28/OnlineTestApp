@@ -13,7 +13,7 @@ export class QuizService {
   getAll() {
     return [
       { id: 'data/Java.json', name: 'Java Quiz' },
-      { id: 'data/Animal.json', name: 'Fruit Quiz' },
+      { id: 'data/Fruit.json', name: 'Fruit Quiz' },
       { id: 'data/Maths.json', name: 'Maths Quiz' },
     ];
   }
