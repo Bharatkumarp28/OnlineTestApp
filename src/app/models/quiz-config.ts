@@ -1,3 +1,4 @@
+//Developed by Bharat Ponugupati
 export class QuizConfig {
     allowBack: boolean;
     allowReview: boolean;

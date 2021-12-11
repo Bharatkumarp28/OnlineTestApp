@@ -1,3 +1,4 @@
+//Developed by Bharat Ponugupati
 export class Option {
     id: number;
     questionId: number;
@@ -13,3 +14,6 @@ export class Option {
         this.isAnswer = data.isAnswer;
     }
 }
+
+
+

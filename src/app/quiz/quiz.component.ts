@@ -1,3 +1,4 @@
+//Developed by Bharat Ponugupati
 import { Component, OnInit } from "@angular/core";
 
 import { QuizService } from "../services/quiz.service";

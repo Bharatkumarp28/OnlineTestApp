@@ -1,3 +1,4 @@
+//Developed by Bharat Ponugupati
 import { Component } from '@angular/core';
 
 import { QuizComponent } from './quiz/quiz.component';
